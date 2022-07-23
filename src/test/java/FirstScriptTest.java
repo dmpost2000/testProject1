@@ -44,6 +44,6 @@ public class FirstScriptTest extends BaseTestClass {
 
         searchBox = driver.findElement(By.name("q"));
         String value = searchBox.getAttribute("value");
-        Assertions.assertEquals("Selenium111", value);
+        Assertions.assertEquals("Selenium", value);
     }
 }
